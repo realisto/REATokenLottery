@@ -6,6 +6,6 @@ The winning ticket number will be chosen by sending a transaction on the Ethereu
 
 The last two digits of the hash of the block number modulo the total number of the participants of the lottery round will be the winning number of the raffle.
 
-The ticket numbers corresponding to contributions will be choosen pseudo randomly by a computer program an published here.
+The ticket numbers corresponding to contributions will be choosen pseudo randomly by a computer program and published here.
 
  
