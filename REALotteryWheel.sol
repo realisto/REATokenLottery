@@ -44,7 +44,7 @@ contract REALotteryWheel{
     
     function spin(bytes32 s) public {
         if(controller != msg.sender) revert();
-        round_count = last_round + 1;
+        round_count = round_count + 1;
         last_hash = keccak256(block.number,now,s);
         hashes[round_count] = last_hash;
         
