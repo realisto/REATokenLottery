@@ -1,4 +1,4 @@
-pragma solidity ^0.4.19;
+pragma solidity ^0.4.17;
 /*
 	REA Lottery Wheel Contract
 
@@ -52,7 +52,7 @@ contract REALotteryWheel{
     	if(controller != msg.sender) revert();
     	do_spin(s);
     }
-    
+
     function get_hash (uint16 i) constant returns (bytes32){
         return hashes[i];
     }
