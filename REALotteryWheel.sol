@@ -42,12 +42,15 @@ contract REALotteryWheel{
         last_hash = keccak256(block.number, now);    
     }
     
-    function spin(bytes32 s) public {
-        if(controller != msg.sender) revert();
+    function do_spin(bytes32 s) internal {
         round_count = round_count + 1;
         last_hash = keccak256(block.number,now,s);
         hashes[round_count] = last_hash;
-        
+    }
+
+    function spin(bytes32 s) public { 
+    	if(controller != msg.sender) revert();
+    	do_spin(s);
     }
     
     function get_hash (uint16 i) constant returns (bytes32){
@@ -55,7 +58,7 @@ contract REALotteryWheel{
     }
     
     function () payable {
-        spin(bytes32(msg.value));
+        do_spin(bytes32(msg.value));
     }
     
 }
