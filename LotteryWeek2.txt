@@ -1,0 +1,14 @@
+Bonus 2 contributions...
+42 bonus 2 contributions in total
+Ticket Nr	Ethereum Address                          	REA Total
+--------------------------------------------------------------------------
+    3		0x3d41fb10ce8b5f1543d65d2ad116ea4dcb7359c6	  363.00003630000003
+    2		0x3511d5CD06dCE74c130b4B59AE127272B42e66c0	  408.1
+    1		0x515b29dc83f9284c51ac1c308d392ceee8136847	  471.90000000000003
+    0		0xa68d80bc498cce84b6048e49e0a00ecc2105604e	  726.0
+    7		0x666aab42386d9e0242e29fa6f28a0D942E93b4E6	  900.4
+    6		0xebf12c56a01f8863ecc2ca25beef9f3603318319	  1089.0
+    4		0x0fe6ee9739f82158b482d063a4d3cbb2df130e52	  1270.5
+    5		0xdc8f543eaff9e1e6d61da60ef0a23a069ec94dcc	  2969.3399999999997
+--------------------------------------------------------------------------
+8  candidates in total
